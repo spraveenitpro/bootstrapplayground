@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/bootstrap-responsive.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="container">
+<!--
+  <div class="row-fluid">
+    <div class="span8">span8</div>
+    <div class="span4">span4</div>
+  </div>
+  </div>
+  <hr />
+  
+  <div class="row-fluid">
+    <div class="span2">span2</div>
+    <div class="span6 offset4">span6</div>
+  </div>
+  
+  <hr />
+
+
+<ul class="unstyled">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>
+        Item 3
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+        </ul>
+      </li>
+    </ul>
+
+    <ol class="inline">
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ol>
+
+  <hr/>
+    
+  <table class="table table-hover table-bordered table-condensed">
+      <caption>This is a default table</caption>
+      <thead>
+        <tr >
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="success">
+          <td>1</td>
+          <td>Adi</td>
+          <td>Purdila</td>
+        </tr>
+        <tr class="error">
+          <td>1</td>
+          <td>Adi</td>
+          <td>Purdila</td>
+        </tr>
+        <tr class="info">
+          <td>2</td>
+          <td>John</td>
+          <td>Smith</td>
+        </tr>
+        <tr class="warning">
+          <td>1</td>
+          <td>Adi</td>
+          <td>Purdila</td>
+        </tr>
+        <tr class="info">
+          <td>1</td>
+          <td>Adi</td>
+          <td>Purdila</td>
+        </tr>
+      </tbody>
+    </table>
+
+  <hr />
+  <div class="row-fluid">
+    <div class="span8">
+      Level 1 col
+      <div class="row-fluid">
+        <div class="span2 dark">Level 2 col</div>
+        <div class="span10 dark">Level 2 col</div>      
+      </div>
+    </div>
+  </div>
+  
+
+  <a href="http://google.com" class="btn">Google</a>
+  <button class="btn btn-primary" href="http://google.com"> Google button </button>
+  <a href="" class="btn btn-info">Special Button</a>
+  <a href="" class="btn btn-success">Special Button</a>
+  <a href="" class="btn btn-warning">Special Button</a>
+  <a href="" class="btn btn-danger">Special Button</a>
+  <hr /> 
+   <a href="" class="btn btn-info btn-large">Special Button</a>
+  <a href="" class="btn btn-success btn-small">Special Button</a>
+  <a href="" class="btn btn-warning btn-mini">Special Button</a>
+  <a href="" class="btn btn-warning btn-block">Special Button</a>
+  <hr /> 
+  <input type="text" class="btn" value="Input Text">
+  <input type="Submit" class="btn" value="Submit">
+
+  <hr />
+  <img src="http://lorempixel.com/200/200" alt="demo" class="img-rounded">
+  <img src="http://lorempixel.com/200/200" alt="demo" class="img-circle">
+  <img src="http://lorempixel.com/200/200" alt="demo" class="img-polaroid">
+
+  <hr />
+  <i class="icon-download"></i>
+    <i class="icon-lock"></i>
+      <i class="icon-camera"></i>
+  <a href="http://Pandora.com" class="btn btn-primary"><i class="icon-music icon-white"></i> Music</a>
+  <a href="http://Pandora.com" class="btn btn-primary"><i class="icon-film icon-white"></i> Film</a>
+
+ 
+  <hr />
+  
+   <form>
+     
+     <label for="simple-input">Simple Text Input</label>
+
+     <div class="input-prepend input-append">
+      <span class="add-on">@</span>
+      <input type="text" id="simple-input" name="simple-input" placeholder="type here">
+      <span class="add-on">Enter Email</span>
+      <button class="btn">Search</button>
+     </div>
+
+     <hr />
+     <label for="simple-textarea">Simple Text Area</label>
+     <textarea name="simple-textarea" id="simple-textarea" cols="30" rows="10"></textarea>
+     <hr />
+     <label class="checkbox inline"><input type="checkbox">Simple Checkbox</label>
+     <label class="checkbox inline"><input type="checkbox">Simple Checkbox</label>
+     <label class="checkbox inline"><input type="checkbox">Simple Checkbox</label>
+     
+     <label class="radio inline"><input type="radio">Simple Radio</label>
+     <label class="radio inline"><input type="radio">Simple Radio</label>
+     <label class="radio inline"><input type="radio">Simple Radio</label>
+     <hr />
+     <input type="text" class= "span6"><input type="text" class= "span6">
+
+   </form>  
+ 
+  <form class="form-search">
+    
+    <input type="text" class="search-query">
+    <button type="submit" class="btn btn-primary">Search</button>
+
+
+  </form>
+
+  <hr/>
+
+  <form class="form-horizontal">
+    
+     <div class="control-group">
+          <label class="control-label">Email</label>
+          <div class="controls"><input type="text" placeholder="Email"></div>
+     </div>
+
+
+     <div class="control-group">
+          <label class="control-label">Password</label>
+          <div class="controls"><input type="text" placeholder="Password"></div>
+     </div>
+
+
+     <div class="control-group">
+         <div class="controls">
+         <label class="checkbox " > 
+            <input type="checkbox" />Remember Me
+         </label>
+     
+         <button type="submit" class="btn">Sign in</button>
+       </div>
+     </div>
+
+  </form>
+  -->
+
+     <div class="dropdown">
+      <a href="" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+      
+      <ul class="dropdown-menu">
+        <li><a href="" tabindex="-1">Action 1</a></li>
+        <li class="dropdown-submenu">
+          <a href="" tabindex="-1">Action 2</a>
+          <ul class="dropdown-menu">
+            <li><a href="" tabindex="-1">Submenu 1</a></li>
+            <li><a href="" tabindex="-1">Submenu 2</a></li>
+          </ul>
+        </li>
+        <li class="divider"></li>
+        <li class="disabled"><a href="" tabindex="-1">Action 3</a></li>
+      </ul>
+    </div>
+
+  <hr />
+  <div class="btn-toolbar">
+  <div class="btn-group pull-right" >
+      <button class="btn">Button1</button>
+      <button class="btn">Button2</button>
+      <button class="btn">Button3</button>
+  </div>
+
+  <div class="btn-group pull-right" >
+      <button class="btn">Button1</button>
+      <button class="btn">Button2</button>
+      <button class="btn">Button3</button>
+  </div>
+  </div>
+
+  <hr />
+
+  <button class="btn" type="button" id="loading-button" data-loading-text="Loading...">Loading State</button>
+
+  <hr />
+
+  <ul class="nav nav-tabs ">
+    <li class="active"><a href="">Link 1</a></li>
+    <li><a href="">Link 2</a></li>
+    <li><a href="">Link 3</a></li>
+    <li><a href="">Link 3</a></li>
+    <li><a href="">Link 5</a></li>
+    <li class="dropdown">
+      <a href="" class="dropdown-toggle" data-toggle="tab">DropDown <b class="caret"></b></a>
+    </li>
+
+  </ul>
+  <hr />
+
+  <ul class="nav nav-pills ">
+    <li class="active"><a href="">Link 1</a></li>
+    <li><a href="">Link 2</a></li>
+    <li><a href="">Link 3</a></li>
+    <li><a href="">Link 4</a></li>
+    <li><a href="">Link 5</a></li>
+  </ul>
+
+
+
+  <!-- JavaScript -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.js"></script> 
+      
+     <script type="text/javascript">
+       
+        $("#loading-button").click(function() {
+
+        var btn = $(this);
+        btn.button('loading');
+
+        setTimeout(function() {
+        btn.button('reset');
+        }, 3000);
+        }); 
+
+
+     </script>
+
+</body>
+</html>
